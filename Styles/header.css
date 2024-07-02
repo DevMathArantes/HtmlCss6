@@ -1,0 +1,21 @@
+.cabecalhoMenuHamburguer{
+    width: 30px;
+    height: 30px;
+    background-image: url("../Assets/iconMenu.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cabecalho{
+    background-color: var(--corFundoCabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.containerImagem{
+    padding: 1em;
+}

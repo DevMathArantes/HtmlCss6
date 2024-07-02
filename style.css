@@ -1,0 +1,17 @@
+/*
+
+Novos comandos
+
+Importar arquivos css dentro de arquivos css
+@import url("URL do arquivo");
+
+*/
+
+@import url("Styles/header.css");
+:root{
+    --corFundo: #ebecee;
+    --corFundoCabecalho: #ffffff;
+}
+body{
+    background-color: var(--corFundo);
+}
