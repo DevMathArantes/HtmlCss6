@@ -1,3 +1,31 @@
+/*
+
+Novos comandos
+
+O que fazer caso o elemento x seja prrenchido
+x:checked{...}
+
+Fazer algo com classe y depois de x
+x~y{...}
+
+Comando position
+
+    permite inserir outros atributos como top, left, right e bottom, que são, respectivamente, topo, esquerda, 
+    direita e baixo.
+    position: relative;
+
+    permite movimentar o elemento de acordo com outro que veio antes ou que é o "pai", e que esteja em uma 
+    position diferente de "estática", que é a padrão.
+    position: absolute
+
+Omitir elementos
+display: none;
+
+Transformar texto
+text-transform:...;
+-uppercase: transformar em maiúsculo
+
+*/
 .cabecalhoMenuHamburguer{
     width: 30px;
     height: 30px;
@@ -11,6 +39,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .container{
     display: flex;
@@ -18,4 +47,29 @@
 }
 .containerImagem{
     padding: 1em;
+}
+.listaMenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.containerBotao:checked~.listaMenu{
+    display: block;
+}
+.listaMenuTitulo, .listaMenuItem{
+    padding: 1em;
+    background-color: var(--corFundoCabecalho);
+}
+.listaMenuTitulo{
+    color: var(--corDestaque1);
+    font-weight: 700;
+}
+.listaMenuLink{
+    color: var(--corDestaque2);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.containerBotao{
+    display: none;
 }

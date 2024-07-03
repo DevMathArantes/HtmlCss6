@@ -1,3 +1,14 @@
+<!--
+
+Novas tags
+
+Input que detecta ao ser clicado e fica preenchido
+<input type="checkbox">
+
+Associar elemento x ao y
+<label for="x"> y </label>
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,8 +21,29 @@
 <body>
     <header class="cabecalho">
         <div class="container">
-            <span class="cabecalhoMenuHamburguer containerImagem"></span>
-        <img class="containerImagem" src="Assets/iconLogo.png" alt="icone logo playstation">
+            <input type="checkbox" id="menu" class="containerBotao">
+            <label for="menu">
+                <span class="cabecalhoMenuHamburguer containerImagem"></span>
+            </label>    
+            <ul class="listaMenu">
+                <li class="listaMenuTitulo">Categorias</li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">multiplayer</a>
+                </li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">esporte</a>
+                </li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">aventura</a>
+                </li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">luta</a>
+                </li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">corrida</a>
+                </li>
+            </ul> 
+            <img class="containerImagem" src="Assets/iconLogo.png" alt="icone logo playstation">
         </div>
         <div class="container">
             <a href="#"><img src="Assets/iconCoracao.png" alt="icone coração" class="containerImagem"></a>
