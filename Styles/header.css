@@ -1,5 +1,8 @@
 /*
 
+Link sobre o position
+https://www.alura.com.br/artigos/entenda-a-propriedade-position-css
+
 Novos comandos
 
 O que fazer caso o elemento x seja prrenchido
@@ -17,6 +20,17 @@ Comando position
     permite movimentar o elemento de acordo com outro que veio antes ou que é o "pai", e que esteja em uma 
     position diferente de "estática", que é a padrão.
     position: absolute
+
+    padrão: apenas segue o fluxo junto dos outros elementos da página normalmente, tendo o canto superior esquerdo como referência.
+    position: static;
+
+    o elemento que recebeu esta propriedade não se mova na tela. Mesmo que uma página tenha rolamento (scroll). Ao 
+    utilizarmos o rolamento para esquerda e direita, ou para cima e para baixo, o elemento não se move (precisa dizer
+    a posição dos lados).
+    position: fixed;
+
+    posição inicial
+    position: initial;
 
 Omitir elementos
 display: none;
@@ -44,6 +58,7 @@ text-transform:...;
 .container{
     display: flex;
     align-items: center;
+    font-family: var(--fontPrincipal);
 }
 .containerImagem{
     padding: 1em;

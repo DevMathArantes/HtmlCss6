@@ -1,0 +1,37 @@
+/*
+Novos atributos
+Configurar placeholder do elemento x
+x::placeholder{...}
+*/
+.banner{
+    background-color: var(--corDestaque2);
+    color: var(--corFundoCabecalho);
+    text-align: center;
+    font-family: var(--fontPrincipal);
+    padding: 2.5em 2em;
+}
+.bannerTitulo{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.bannerTexto{
+    font-weight: 500;
+    margin: 1em 0;
+}
+.bannerPesquisa{
+    background-color: transparent;
+    border: 1px solid var(--corFundoCabecalho);
+    color: var(--corFundoCabecalho);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+.bannerPesquisa::placeholder{
+    color: var(--corFundoCabecalho);
+    font-family: var(--fontPrincipal);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+   background: url("../Assets/iconLupa.png") no-repeat;
+   background-position: 1em;
+}
