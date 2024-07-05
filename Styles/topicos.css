@@ -1,0 +1,34 @@
+/*
+
+Novos atributos
+
+Comando flex para pular linha
+flex-wrap: wrap;
+*/
+.topicos{
+    background-color: var(--corDestaque2);
+    text-align: center;
+    padding: 1em 0;
+    font-family: var(--fontPrincipal);
+}
+.topicosTitulo{
+    color: var(--corFundoCabecalho);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.topicosLista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topicosLink{
+    color: var(--corFundoCabecalho);
+    padding: 1em;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: var(--corDestaque1);
+}
+.topicosItem{
+    margin: 2em 0.5em;
+}
