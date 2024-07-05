@@ -63,8 +63,11 @@
 }
 .botoesAncora{
     background-color: var(--corDestaque2);
-    padding: 1em 1.7em;
+    padding: 2em 1.7em;
     color: var(--corFundoCabecalho);
     font-weight: 700;
     text-decoration: none;
+}
+.estrelas{
+    width: 30%;
 }

@@ -44,6 +44,7 @@ text-transform:...;
     width: 30px;
     height: 30px;
     background-image: url("../Assets/iconMenu.png");
+    background-size: 50%;
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
@@ -62,6 +63,7 @@ text-transform:...;
 }
 .containerImagem{
     padding: 1em;
+    width: 32px;
 }
 .listaMenu{
     display: none;

@@ -34,4 +34,5 @@ x::placeholder{...}
     text-align: center;
    background: url("../Assets/iconLupa.png") no-repeat;
    background-position: 1em;
+   background-size: 8%;
 }
