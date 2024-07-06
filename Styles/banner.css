@@ -36,3 +36,16 @@ x::placeholder{...}
    background-position: 1em;
    background-size: 8%;
 }
+
+@media screen and (min-width: 1024px){
+    .bannerTitulo{
+        font-size: 36px;
+    }
+    .bannerPesquisa{
+        width: 50%;
+    }
+    .bannerPesquisa::placeholder{
+        background-position: 7em;
+        background-size: 5%;
+    }
+}

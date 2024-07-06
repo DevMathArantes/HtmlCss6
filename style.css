@@ -13,13 +13,16 @@ Importar arquivos css dentro de arquivos css
 @import url("Styles/topicos.css");
 @import url("Styles/contato.css");
 @import url("Styles/rodape.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root{
     --corFundo: #ebecee;
     --corFundoCabecalho: #ffffff;
+    --corPreto: #000000;
     --corDestaque1: #0079eb;
     --corDestaque2: #00376b;
     --fontPrincipal: "Poppins", sans-serif;
+    --fontSecundaria: "Josefin Sans", sans-serif;
 }
 body{
     background-color: var(--corFundo);

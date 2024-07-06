@@ -90,3 +90,46 @@ text-transform:...;
 .containerBotao{
     display: none;
 }
+.containerTitulo{
+    display: none;
+}
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .containerTitulo, .containerTituloNegrito{
+        font-family: var(--fontSecundaria);
+        font-size: 30px;
+    }
+    .containerTitulo{
+        font-weight: 400;
+        display: block;
+    }
+    .containerTituloNegrito{
+        font-weight: 700;
+    }
+    .opcoes{
+        display: flex;
+        font-family: var(--fontPrincipal);
+    }
+    .opcoesItem{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+    .opcoesLink{
+        text-decoration: none;
+        color: var(--corPreto);
+    }
+    .transparente{
+        display: none;
+    }
+    .opcoesBotao:checked~.listaMenu{
+        display: block;
+        width: auto;
+    }
+    .opcoesBotao{
+        display: none;
+    }
+    
+}

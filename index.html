@@ -31,7 +31,7 @@ Associar elemento x ao y
         <div class="container">
             <input type="checkbox" id="menu" class="containerBotao">
             <label for="menu">
-                <span class="cabecalhoMenuHamburguer containerImagem"></span>
+                <span class="transparente cabecalhoMenuHamburguer containerImagem"></span>
             </label>    
             <ul class="listaMenu">
                 <li class="listaMenuTitulo">Categorias</li>
@@ -52,9 +52,35 @@ Associar elemento x ao y
                 </li>
             </ul> 
             <img class="containerImagem" src="Assets/iconLogo.png" alt="icone logo playstation">
+            <h1 class="containerTitulo"><b class="containerTituloNegrito">PSN</b> exemplar</h1>
         </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoesMenu" class="opcoesBotao">
+            <label for="opcoesMenu">
+                <li class="opcoesItem">Categorias</li>
+            </label>
+            <ul class="listaMenu">
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">multiplayer</a>
+                </li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">esporte</a>
+                </li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">aventura</a>
+                </li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">luta</a>
+                </li>
+                <li class="listaMenuItem">
+                    <a href="#" class="listaMenuLink">corrida</a>
+                </li>
+            </ul> 
+            <li class="opcoesItem"><a href="#" class="opcoesLink">Favoritos</a></li>
+            <li class="opcoesItem"><a href="#" class="opcoesLink">Minha coleção</a></li>
+        </ul>
         <div class="container">
-            <a href="#"><img src="Assets/iconCoracao.png" alt="icone coração" class="containerImagem"></a>
+            <a href="#"><img src="Assets/iconCoracao.png" alt="icone coração" class="containerImagem transparente"></a>
             <a href="#"><img src="Assets/iconCompra.png" alt="icone compra" class="containerImagem"></a>
             <a href="#"><img src="Assets/iconUsuario.png" alt="icone usuário" class="containerImagem"></a>
         </div>
@@ -186,12 +212,14 @@ Associar elemento x ao y
         </ul>
     </section>
     <section class="contato">
-        <h2 class="contatoTitulo">
-            Fique por dentro das novidades
-        </h2>
-        <p class="contatoTexto">
-            Atualizações de jogos, novos lançamentos, promoções e muito mais.
-        </p>
+        <div class="contatoDescricao">
+            <h2 class="contatoTitulo">
+                Fique por dentro das novidades
+            </h2>
+            <p class="contatoTexto">
+                Atualizações de jogos, novos lançamentos, promoções e muito mais.
+            </p>
+        </div>
         <input type="email" placeholder="Cadastre seu email" class="contatoEmail">
     </section><hr>
     <footer class="rodape">

@@ -58,7 +58,7 @@
 }
 .descricaoTexto{
     font-size: 14px;
-    padding: 0 1em;
+    padding: 1em 1em 1em 0;
 }
 .botoesItem{
     margin: 0 0.5em;
@@ -73,4 +73,29 @@
 }
 .estrelas{
     width: 90%;
+}
+
+@media screen and (min-width: 1024px){
+    .carrosselTitulo{
+        font-size: 26px;
+    }
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+    .swiper{
+        width: 80%;
+    }
+    .carroselImagemImprovisada{
+        height: 35vw;
+    }
+    .card{
+        width: 50%;
+        margin: 2em auto;
+    }
+    .botoesAncora{
+        width: 21%;
+    }
+    .estrelas{
+        width: 30%;
+    }
 }
