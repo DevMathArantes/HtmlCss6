@@ -1,0 +1,9 @@
+hr{
+    margin: 0;
+}
+.rodape{
+    font-family: var(--fontPrincipal);
+    background-color: var(--corFundoCabecalho);
+    padding: 1em;
+    color: var(--corDestaque2);
+}
