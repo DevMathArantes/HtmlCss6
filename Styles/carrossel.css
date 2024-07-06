@@ -29,7 +29,7 @@
 }
 .descricaoImagem{
     width: 45%;
-    height: 25vh;
+    height: 19vh;
 }
 .cardBotoes{
     display: flex;
@@ -66,6 +66,7 @@
 .botoesAncora{
     background-color: var(--corDestaque2);
     padding: 1.5em 1.4em;
+    width: 31%;
     color: var(--corFundoCabecalho);
     font-weight: 700;
     text-decoration: none;
