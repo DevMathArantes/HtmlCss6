@@ -37,7 +37,7 @@ x::placeholder{...}
    background-size: 8%;
 }
 
-@media screen and (min-width: 824px){
+@media screen and (min-width: 724px){
     .bannerTitulo{
         font-size: 36px;
     }

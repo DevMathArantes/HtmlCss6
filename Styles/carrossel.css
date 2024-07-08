@@ -75,7 +75,7 @@
     width: 90%;
 }
 
-@media screen and (min-width: 824px){
+@media screen and (min-width: 724px){
     .carrosselTitulo{
         font-size: 26px;
     }

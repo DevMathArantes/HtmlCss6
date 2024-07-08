@@ -11,7 +11,7 @@ hr{
     display: none;
 }
 
-@media screen and (min-width: 824px){
+@media screen and (min-width: 724px){
     .listaRodape{
         display: block;
     }
