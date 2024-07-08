@@ -37,7 +37,7 @@ x::placeholder{...}
    background-size: 8%;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 824px){
     .bannerTitulo{
         font-size: 36px;
     }
@@ -47,5 +47,17 @@ x::placeholder{...}
     .bannerPesquisa::placeholder{
         background-position: 7em;
         background-size: 5%;
+    }
+}
+@media screen and (min-width: 1300px){
+    .bannerPesquisa{
+        width: 45%;
+    }
+    .bannerPesquisa::placeholder{
+        background-position: 9.5em;
+        background-size: 4%;
+    }
+    .banner{
+        padding: 6em 0;
     }
 }

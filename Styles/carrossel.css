@@ -75,7 +75,7 @@
     width: 90%;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 824px){
     .carrosselTitulo{
         font-size: 26px;
     }
@@ -93,9 +93,46 @@
         margin: 2em auto;
     }
     .botoesAncora{
+        padding: 2em 0;
         width: 21%;
+        text-align: center;
+    }
+    .descricaoImagem{
+        height: 10vw;
+        width: 21%;
+        margin-left: 1em;
     }
     .estrelas{
         width: 30%;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+    }
+}
+@media screen and (min-width: 1300px){
+    .carrosselContainer{
+        display: flex;
+        margin: 0 5vw 3em 5vw;
+        align-items: center;
+    }
+    .swiper-pagination{
+        position: initial;
+        margin: 1em 0;
+    }
+    .swiper{
+        width: 50%;
+    }
+    .carroselImagemImprovisada{
+        height: 18vw;
+    }
+    .descricaoTitulo{
+        font-size: 32px;
+    }
+    .descricaoTexto{
+        font-size: 16px;
+    }
+    .card{
+        width: 60%;
+        margin-left: 3em;
     }
 }

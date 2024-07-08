@@ -21,6 +21,8 @@ Importar arquivos css dentro de arquivos css
     --corPreto: #000000;
     --corDestaque1: #0079eb;
     --corDestaque2: #00376b;
+    --corDestaque3: #474646;
+    --corDestaque4: #858585;
     --fontPrincipal: "Poppins", sans-serif;
     --fontSecundaria: "Josefin Sans", sans-serif;
 }

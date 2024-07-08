@@ -33,11 +33,17 @@ flex-wrap: wrap;
     margin: 2em 0.5em;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 824px){
     .topicosTitulo{
         font-size: 24px;
     }
     .topicosLink{
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .topicos{
+        padding: 3em 10vw;
     }
 }

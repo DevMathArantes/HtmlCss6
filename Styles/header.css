@@ -35,6 +35,10 @@ Comando position
 Omitir elementos
 display: none;
 
+Preencher toda a margem (dentro de flex)
+margin-x:auto;
+(x= lado)
+
 Transformar texto
 text-transform:...;
 -uppercase: transformar em maiúsculo
@@ -96,8 +100,11 @@ text-transform:...;
 .opcoes{
     display: none;
 }
+.containerTexto{
+    display: none;
+}
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 824px){
     .containerTitulo, .containerTituloNegrito{
         font-family: var(--fontSecundaria);
         font-size: 30px;
@@ -132,4 +139,21 @@ text-transform:...;
         display: none;
     }
     
+}
+@media screen and (min-width: 1300px){
+    .containerLink{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--corPreto);
+    }
+    .containerTexto{
+        display: block;
+    }
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .opcoes{
+        margin-right: auto;
+    }
 }

@@ -80,9 +80,17 @@ Associar elemento x ao y
             <li class="opcoesItem"><a href="#" class="opcoesLink">Minha coleção</a></li>
         </ul>
         <div class="container">
-            <a href="#"><img src="Assets/iconCoracao.png" alt="icone coração" class="containerImagem transparente"></a>
-            <a href="#"><img src="Assets/iconCompra.png" alt="icone compra" class="containerImagem"></a>
-            <a href="#"><img src="Assets/iconUsuario.png" alt="icone usuário" class="containerImagem"></a>
+            <a class="containerLink" href="#">
+                <img src="Assets/iconCoracao.png" alt="icone coração" class="containerImagem transparente">
+            </a>
+            <a class="containerLink" href="#">
+                <img src="Assets/iconCompra.png" alt="icone compra" class="containerImagem">
+                <p class="containerTexto">Minha sacola</p>
+            </a>
+            <a class="containerLink" href="#">
+                <img src="Assets/iconUsuario.png" alt="icone usuário" class="containerImagem">
+                <p class="containerTexto">Meu perfil</p>
+            </a>
         </div>
     </header>
     <section class="banner">
@@ -92,93 +100,97 @@ Associar elemento x ao y
     </section>
     <section class="carrossel">
         <h2 class="carrosselTitulo">Novos lançamentos</h2>
+        <div class="carrosselContainer">
 
-        <!--Conteúdo importado do script-->
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe2.jpg" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe3.webp" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe4.webp" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe5.jpg" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe6.webp" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe7.webp" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe8.jpeg" alt="imagem de exemplo"></div>
-            </div>
-           
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        
-        </div>
-
-        <div class="card">
-            <div class="cardDescricao">
-                <div class="descricao">
-                    <h3 class="descricaoTitulo">Talvez você se interesse por...</h3>
-                    <h2 class="descricaoTituloLivro">Days gone</h2>
-                    <p class="descricaoTexto">
-                        Construa horas de sobrevivência em um mundo pós apocalíptico cheio de frenéticos.
-                    </p>
+            <!--Conteúdo importado do script-->
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe2.jpg" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe3.webp" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe4.webp" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe5.jpg" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe6.webp" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe7.webp" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgRe8.jpeg" alt="imagem de exemplo"></div>
                 </div>
-                <img src="Assets/imgDaysGone.jpg" alt="imagem de exemplo" class="descricaoImagem">
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
             </div>
-            <div class="cardBotoes">
-                <ul class="botoes">
-                    <li class="botoesItem"><img class="containerImagem" src="Assets/iconCoracao.png" alt="icone coração"></li>
-                    <li class="botoesItem"><img class="containerImagem" src="Assets/iconCompra.png" alt="icone compra"></li>
-                </ul>
-                <a href="#" class="botoesAncora">Saiba mais</a>
+
+            <div class="card">
+                <div class="cardDescricao">
+                    <div class="descricao">
+                        <h3 class="descricaoTitulo">Talvez você se interesse por...</h3>
+                        <h2 class="descricaoTituloLivro">Days gone</h2>
+                        <p class="descricaoTexto">
+                            Construa horas de sobrevivência em um mundo pós apocalíptico cheio de frenéticos.
+                        </p>
+                    </div>
+                    <img src="Assets/imgDaysGone.jpg" alt="imagem de exemplo" class="descricaoImagem">
+                </div>
+                <div class="cardBotoes">
+                    <ul class="botoes">
+                        <li class="botoesItem"><img class="containerImagem" src="Assets/iconCoracao.png" alt="icone coração"></li>
+                        <li class="botoesItem"><img class="containerImagem" src="Assets/iconCompra.png" alt="icone compra"></li>
+                    </ul>
+                    <a href="#" class="botoesAncora">Saiba mais</a>
+                </div>
             </div>
         </div>
     </section>
     <section class="carrossel">
-        <h2 class="carrosselTitulo">Mais vendidos</h2>
-
-        <!--Conteúdo importado do script-->
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgTheLastOfUs.png" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgTheLastOfUs2.png" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgHorizonZeroDawn.webp" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgHorizonForbiddenWest.jpg" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgGodOfWar.webp" alt="imagem de exemplo"></div>
-            <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgGodOfWarRagnarok.jpg" alt="imagem de exemplo"></div>
-            </div>
-           
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
         
-        </div>
-
-        <div class="card">
-            <div class="cardDescricao">
-                <div class="descricao">
-                    <img src="Assets/estrelas.png" alt="icone estrelas" class="estrelas">
-                    <h3 class="descricaoTitulo">Tema do projeto</h3>
-                    <h2 class="descricaoTituloLivro">Playstation</h2>
-                    <p class="descricaoTexto">
-                        Este é apenas um projeto prático com o tema da playstation, acesse o link para ver o site oficial da PSN.
-                    </p>
+        <h2 class="carrosselTitulo">Mais vendidos</h2>
+        <div class="carrosselContainer">
+            <!--Conteúdo importado do script-->
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgTheLastOfUs.png" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgTheLastOfUs2.png" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgHorizonZeroDawn.webp" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgHorizonForbiddenWest.jpg" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgGodOfWar.webp" alt="imagem de exemplo"></div>
+                <div class="swiper-slide"><img class="carroselImagemImprovisada" src="Assets/imgGodOfWarRagnarok.jpg" alt="imagem de exemplo"></div>
                 </div>
-                <img src="Assets/imgPsn.png" alt="imagem de exemplo" class="descricaoImagem">
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
             </div>
-            <div class="cardBotoes">
-                <ul class="botoes">
-                    <li class="botoesItem"><img class="containerImagem" src="Assets/iconCoracao.png" alt="icone coração"></li>
-                    <li class="botoesItem"><img class="containerImagem" src="Assets/iconCompra.png" alt="icone compra"></li>
-                </ul>
-                <a href="https://www.playstation.com/pt-br/" class="botoesAncora">Link da PSN</a>
+
+            <div class="card">
+                <div class="cardDescricao">
+                    <div class="descricao">
+                        <img src="Assets/estrelas.png" alt="icone estrelas" class="estrelas">
+                        <h3 class="descricaoTitulo">Tema do projeto</h3>
+                        <h2 class="descricaoTituloLivro">Playstation</h2>
+                        <p class="descricaoTexto">
+                            Este é apenas um projeto prático com o tema da playstation, acesse o link para ver o site oficial da PSN.
+                        </p>
+                    </div>
+                    <img src="Assets/imgPsn.png" alt="imagem de exemplo" class="descricaoImagem">
+                </div>
+                <div class="cardBotoes">
+                    <ul class="botoes">
+                        <li class="botoesItem"><img class="containerImagem" src="Assets/iconCoracao.png" alt="icone coração"></li>
+                        <li class="botoesItem"><img class="containerImagem" src="Assets/iconCompra.png" alt="icone compra"></li>
+                    </ul>
+                    <a href="https://www.playstation.com/pt-br/" class="botoesAncora">Link da PSN</a>
+                </div>
             </div>
         </div>
     </section>
@@ -223,7 +235,80 @@ Associar elemento x ao y
         <input type="email" placeholder="Cadastre seu email" class="contatoEmail">
     </section><hr>
     <footer class="rodape">
-        <h2 class="rodapeTitulo">Projeto prático Alura com tema Playstation</h2>
+        <h2 class="rodapeTitulo">Tema Playstation</h2>
+        <ul class="listaRodape">
+            <li class="listaRodapeTitulo">Empresas</li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Playstation</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconAlura.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">ALURA</a>
+            </li>
+        </ul>
+        <ul class="listaRodape">
+            <li class="listaRodapeTitulo">Exclusivos</li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Days gone</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">The last of us</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">The last of us Part 2</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Horizon zero dawn</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Horizon forbidden west</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">God of war 2018</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">God of war Ragnarok</a>
+            </li>
+        </ul>
+        <ul class="listaRodape">
+            <li class="listaRodapeTitulo">Tags</li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconNetflix.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Netflix</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconSpotify.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Spotify</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconDisneyPlus.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Disney plus</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Party</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Comunidade</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Chat</a>
+            </li>
+            <li class="listaRodapeItem">
+                <img src="Assets/iconLogoCinza.png" alt="Imagem de exemplo" class="rodapeImagemItem">
+                <a href="#" class="listaRodapeLink">Playstation Networking</a>
+            </li>
+        </ul>
     </footer>
 
     <!--Script src do carrossel-->

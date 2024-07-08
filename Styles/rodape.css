@@ -7,3 +7,46 @@ hr{
     padding: 1em;
     color: var(--corDestaque2);
 }
+.listaRodape{
+    display: none;
+}
+
+@media screen and (min-width: 824px){
+    .listaRodape{
+        display: block;
+    }
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+    .listaRodapeItem{
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+    .listaRodapeLink{
+        color: var(--corDestaque3);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+    .listaRodapeTitulo{
+        font-size: 14px;
+        color: var(--corDestaque4);
+    }
+    .rodapeTitulo{
+        font-size: 24px;
+        margin-right: 2em;
+    }
+    .rodapeImagemItem{
+        width: 10%;
+    }
+}
+@media screen and (min-width: 1300px){
+    .listaRodape{
+        border-left: 1px solid var(--corDestaque4);
+        padding-left: 1em;
+    }
+    .rodape{
+        padding: 3em 1em;
+    }
+}
