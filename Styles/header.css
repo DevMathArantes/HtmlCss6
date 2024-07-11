@@ -103,6 +103,22 @@ text-transform:...;
 .containerTexto{
     display: none;
 }
+.containerBotao:checked~.containerRotulo > .cabecalhoMenuHamburguer{
+    background-image: url("../Assets/iconMenuAberto.png");
+}
+.containerBotao:checked~.containerRotulo{
+    background-color: var(--corDestaque2);
+}
+.opcoesBotao:checked~ .opcoesRotulo>.opcoesItem{
+    background-color: var(--corDestaque2);
+    color: var(--corFundoCabecalho);
+}
+.opcoesItem{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
 
 @media screen and (min-width: 724px){
     .containerTitulo, .containerTituloNegrito{
@@ -137,6 +153,9 @@ text-transform:...;
     }
     .opcoesBotao{
         display: none;
+    }
+    .listaMenuItem:hover{
+        text-decoration: underline var(--corDestaque2);    
     }
     
 }
